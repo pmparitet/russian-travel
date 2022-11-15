@@ -4,4 +4,9 @@
   font-weight: 400;
   line-height: 28px;
   color: #fff;
+  text-decoration: none;
+  margin-right: 18px;
+}
+.header__lang-link:last-child {
+  margin-right: 0;
 }

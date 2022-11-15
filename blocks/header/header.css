@@ -1,5 +1,10 @@
 .header {
-  height: 52px;
+  max-height: 52px;
   padding: 28px 48px 0;
   border: 1px solid greenyellow;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
 }
