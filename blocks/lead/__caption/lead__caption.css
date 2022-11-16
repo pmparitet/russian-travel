@@ -1,2 +1,4 @@
 .lead__caption {
+  margin: 0;
+  align-self: flex-start;
 }
