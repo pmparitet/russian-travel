@@ -4,4 +4,6 @@
   grid-template-columns: repeat(4, auto);
   grid-template-rows: repeat(3, 1fr);
   gap: 16px;
+  grid-column: 2 / 4;
+  grid-row: 4;
 }
