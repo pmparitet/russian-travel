@@ -1,0 +1,7 @@
+.cover {
+  grid-column: 2 / 6;
+  grid-row: 6;
+  margin: 92px auto 0;
+  width: 100%;
+  position: relative;
+}
