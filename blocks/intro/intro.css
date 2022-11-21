@@ -1,6 +1,19 @@
 .intro {
   max-width: 690px;
-  margin: 92px auto 0;
+  margin: 92px 0 0 0;
   grid-column: 3;
   grid-row: 3;
+  border: 1px solid goldenrod;
+}
+@media screen and (max-width: 1024px) {
+  .intro {
+    grid-column: 2;
+    grid-row: 3;
+  }
+}
+@media screen and (max-width: 768px) {
+  .intro {
+    grid-column: 2;
+    grid-row: 3;
+  }
 }

@@ -6,6 +6,19 @@
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
-  grid-column: 3 / 5;
+  grid-column: 3;
   grid-row: 2;
+}
+@media screen and (max-width: 1024px) {
+  .lead {
+    margin: 48px auto 0;
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lead {
+    grid-column: 1 / 4;
+    grid-row: 2;
+  }
 }
