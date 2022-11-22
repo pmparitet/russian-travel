@@ -2,34 +2,7 @@
   max-width: 1280px;
   margin: 0 auto;
   background-color: #2a2c2f;
-  display: grid;
-  grid-template-columns: minmax(auto, 48px) 1fr fit-content(984px) 1fr minmax(
-      auto,
-      48px
-    );
-  grid-template-rows: auto;
-}
-@media screen and (max-width: 1024px) {
-  .page {
-    grid-template-columns: minmax(auto, 48px) fit-content(928px) minmax(
-        auto,
-        48px
-      );
-  }
-}
-@media screen and (max-width: 768px) {
-  .page {
-    grid-template-columns: minmax(auto, 24px) fit-content(720px) minmax(
-        auto,
-        24px
-      );
-  }
-}
-@media screen and (max-width: 320px) {
-  .page {
-    grid-template-columns: minmax(auto, 16px) fit-content(288px) minmax(
-        auto,
-        16px
-      );
-  }
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }

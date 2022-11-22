@@ -26,13 +26,11 @@
   .place {
     margin-bottom: 60px;
     grid-template-columns: 1fr;
-    column-gap: 28px;
   }
 }
 @media screen and (max-width: 320px) {
   .place {
     margin-bottom: 50px;
-    grid-template-columns: 1fr;
     row-gap: 32px;
   }
 }

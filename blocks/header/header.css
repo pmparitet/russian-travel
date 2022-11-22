@@ -5,14 +5,11 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: flex-end;
-  margin: 28px 0 0 0;
-  grid-column: 2 / 5;
-  grid-row: 1;
+  margin: 28px 48px 0;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .header {
-    grid-column: 2;
-    grid-row: 1;
+    margin: 28px 24px 0;
   }
 }
 @media screen and (max-width: 500px) {
@@ -23,6 +20,6 @@
 @media screen and (max-width: 320px) {
   .header {
     max-height: 42px;
-    margin-top: 16px;
+    margin: 16px 16px 0;
   }
 }

@@ -5,22 +5,18 @@
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
-  grid-column: 3;
-  grid-row: 2;
 }
 @media screen and (max-width: 1024px) {
   .lead {
     max-width: 928px;
-    margin: 48px auto 0;
-    grid-column: 2;
-    grid-row: 2;
+    margin: 48px 48px 0;
   }
 }
 @media screen and (max-width: 768px) {
   .lead {
     max-width: 768px;
-    grid-column: 1 / 4;
-    grid-row: 2;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 @media screen and (max-width: 320px) {
