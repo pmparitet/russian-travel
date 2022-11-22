@@ -1,6 +1,10 @@
+.footer__menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 @media screen and (max-width: 320px) {
   .footer__menu {
-    display: flex;
     flex-direction: column;
   }
 }
