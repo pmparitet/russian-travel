@@ -1,9 +1,7 @@
 .place {
   margin: 0 0 80px 0;
   display: grid;
-  /* grid-template-columns: repeat(fit-content, (2, 1fr)); */
   grid-template-columns: fit-content(460px) 1fr;
-  /* grid-template-columns: repeat(auto-fit, minmax(284px, 486px)); */
   grid-template-rows: auto;
   row-gap: 48px;
   column-gap: 40px;
@@ -21,7 +19,13 @@
   .place {
     margin-bottom: 73px;
     grid-template-columns: fit-content(340px) 1fr;
-    /* grid-template-columns: 1fr; */
+    column-gap: 28px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .place {
+    margin-bottom: 60px;
+    grid-template-columns: 1fr;
     column-gap: 28px;
   }
 }
