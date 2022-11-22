@@ -3,7 +3,6 @@
   margin: 92px 0 0 0;
   grid-column: 3;
   grid-row: 3;
-  border: 1px solid goldenrod;
 }
 @media screen and (max-width: 1024px) {
   .intro {
@@ -13,7 +12,13 @@
 }
 @media screen and (max-width: 768px) {
   .intro {
-    grid-column: 2;
-    grid-row: 3;
+    max-width: 720px;
+    margin-top: 88px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .intro {
+    max-width: 288px;
+    margin-top: 64px;
   }
 }

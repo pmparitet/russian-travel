@@ -25,7 +25,7 @@
 }
 @media screen and (max-width: 1024px) {
   .page {
-    grid-template-columns: minmax(auto, 48px) fit-content(1024px) minmax(
+    grid-template-columns: minmax(auto, 48px) fit-content(928px) minmax(
         auto,
         48px
       );
@@ -33,9 +33,17 @@
 }
 @media screen and (max-width: 768px) {
   .page {
-    grid-template-columns: minmax(auto, 24px) fit-content(768px) minmax(
+    grid-template-columns: minmax(auto, 24px) fit-content(720px) minmax(
         auto,
         24px
+      );
+  }
+}
+@media screen and (max-width: 320px) {
+  .page {
+    grid-template-columns: minmax(auto, 16px) fit-content(288px) minmax(
+        auto,
+        16px
       );
   }
 }
